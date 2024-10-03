@@ -1,0 +1,56 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    font-size: 2em;
+    margin: 1em 0;
+  }
+
+  /* Layout styles */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .main {
+    padding: 2rem;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  /* Module styles */
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  /* State styles */
+  .button:hover {
+    background-color: #0062cc;
+  }
+  
+  .button:active {
+    transform: translateY(2px);
+  }
+
+  .theme-dark {
+    background-color: #333;
+    color: #fff;
+  }
